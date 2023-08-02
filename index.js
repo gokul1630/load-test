@@ -7,7 +7,7 @@ app.get('/', (req, res)=>{
 
 app.get('/load', (req, res)=>{
 	let count = 0
-	for (let index = 0; index < 1e+10; index++) {
+	for (let index = 0; index < 1e+11; index++) {
 		count += 1
 	}
 	res.json({ count })
